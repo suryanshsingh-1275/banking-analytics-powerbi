@@ -136,3 +136,27 @@ The Loans & Credit Analysis dashboard focuses on the bank's lending portfolio an
 
 ---
 
+## 5. Risk Analysis
+
+The Risk Analysis dashboard provides rule-based indicators to identify potentially higher-risk customer and transaction segments.
+
+### Key KPIs
+
+- High Risk Customers
+- High Risk Customer %
+- Low Credit Score Customers
+- Low Credit Score %
+- High Value Transaction %
+
+### Key Analysis
+
+- High-risk customers by credit-score segment
+- High-risk customers by city
+- Low credit-score customers over time
+- High-value transactions over time
+- High-risk customer trends
+
+### Dashboard Preview
+
+![Risk Analysis](screenshots/Risk_Analysis.png)
+
