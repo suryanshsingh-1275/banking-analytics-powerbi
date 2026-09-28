@@ -249,3 +249,29 @@ The Power BI model connects customers, accounts, cards, transactions, loans, and
                          │
                          ▼
                     Transactions
+
+
+## **Table View**
+
+The Table View dashboard provides a detailed, tabular view of customers, accounts, transactions, and other banking data, allowing users to inspect individual records and compare key attributes.
+
+### **Key KPIs**
+
+- Total Customers
+- Total Accounts
+- Total Transactions
+- Total Transaction Amount
+- Total Loans
+
+### **Key Analysis**
+
+- Customer and account details
+- Transaction details with dates and amounts
+- Customer demographics and account information
+- Loan and card details
+- Merchant and transaction-level information
+- Detailed record-level comparison and filtering
+
+### **Dashboard Preview**
+
+![Table View](screenshots/Table_View.png)
