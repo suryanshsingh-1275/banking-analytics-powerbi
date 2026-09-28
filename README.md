@@ -110,3 +110,29 @@ The Transaction Analytics dashboard analyzes transaction volume, transaction val
 
 ---
 
+## 4. Loans & Credit Analysis
+
+The Loans & Credit Analysis dashboard focuses on the bank's lending portfolio and credit-related metrics.
+
+### Key KPIs
+
+- Total Loans
+- Total Loan Amount
+- Average Loan Amount
+- Average Interest Rate
+- Loan Penetration %
+
+### Key Analysis
+
+- Loan amount over time
+- Loan distribution by loan amount
+- Loan exposure by city
+- Loan distribution by interest-rate segment
+- Loan customers over time
+
+### Dashboard Preview
+
+![Loans & Credit Analysis](screenshots/Loans_&_Credit_Analysis.png)
+
+---
+
