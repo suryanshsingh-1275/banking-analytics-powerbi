@@ -58,3 +58,29 @@ The Executive Overview provides a high-level summary of the banking ecosystem.
 
 ---
 
+## 2. Customer Analytics
+
+The Customer Analytics dashboard focuses on customer demographics, credit profiles, loan participation, and account relationships.
+
+### Key KPIs
+
+- Total Customers
+- Average Credit Score
+- Customers With Loans
+- Loan Customer %
+- Accounts per Customer
+
+### Key Analysis
+
+- Customer distribution by credit score
+- Customer distribution by city
+- Customers with and without loans
+- Loan exposure across credit-score segments
+- Account balance across credit-score segments
+
+### Dashboard Preview
+
+![Customer Analytics](screenshots/Customer_Analytics.png)
+
+---
+
