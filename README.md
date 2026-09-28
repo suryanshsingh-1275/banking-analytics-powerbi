@@ -26,3 +26,35 @@ The dashboard combines **Power Query, data modeling, DAX, and Power BI visualiza
 
 ---
 
+# Dashboard Pages
+
+The Power BI report contains six analytical dashboards.
+
+## 1. Executive Overview
+
+The Executive Overview provides a high-level summary of the banking ecosystem.
+
+### Key KPIs
+
+- Total Customers
+- Total Accounts
+- Total Transaction Value
+- Total Transactions
+- Average Transaction Value
+
+### Key Analysis
+
+- Transaction value over time
+- Transaction volume over time
+- Top merchants by transaction value
+- Transaction activity by city
+- Loan penetration
+- Credit card share
+- High-value transaction contribution
+
+### Dashboard Preview
+
+![Executive Overview](screenshots/Executive_Overview.png)
+
+---
+
