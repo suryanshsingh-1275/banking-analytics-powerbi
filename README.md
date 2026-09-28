@@ -160,3 +160,29 @@ The Risk Analysis dashboard provides rule-based indicators to identify potential
 
 ![Risk Analysis](screenshots/Risk_Analysis.png)
 
+## 6. Merchant & Geographic Analysis
+
+The Merchant & Geographic Analysis dashboard evaluates merchant performance and geographic transaction patterns.
+
+### Key KPIs
+
+- Total Merchants
+- Transactions per Merchant
+- Transaction Value per Merchant
+- Transactions per City
+- Transaction Value per City
+
+### Key Analysis
+
+- Top merchants by transaction value
+- Top merchants by transaction count
+- Transaction value by city
+- Transaction volume by city
+- Merchant transaction value over time
+
+### Dashboard Preview
+
+![Geographic Analysis](screenshots/Geographic_Analysis.png)
+
+---
+
