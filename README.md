@@ -186,3 +186,66 @@ The Merchant & Geographic Analysis dashboard evaluates merchant performance and 
 
 ---
 
+# Dataset
+
+The project uses the **Synthetic Banking Dataset** containing approximately **1.26 million records** across multiple banking entities.
+
+## Dataset Size
+
+| Entity | Records |
+|---|---:|
+| Customers | 50,000 |
+| Accounts | 75,000 |
+| Cards | 100,000 |
+| Merchants | 5,000 |
+| Branches | 500 |
+| Loans | 30,000 |
+| Transactions | 1,000,000 |
+| **Total** | **1,260,500** |
+
+The transaction dataset was originally provided in SQL format and was converted into CSV format for use in Power BI.
+
+## Dataset Source
+
+Synthetic Banking Dataset by Akram Belhadi:
+
+https://www.kaggle.com/datasets/akrambelha/synthetic-banking-dataset-csv-sql-sqlite
+
+**License:** CC BY 4.0
+
+---
+
+# Data Model
+
+The Power BI model connects customers, accounts, cards, transactions, loans, and merchants through relational relationships.
+
+### Main Data Model
+
+```text
+                    ┌───────────────┐
+                    │   Customers   │
+                    └───────┬───────┘
+                            │
+                 ┌──────────┴──────────┐
+                 │                     │
+                 ▼                     ▼
+          ┌─────────────┐       ┌─────────────┐
+          │   Accounts  │       │    Loans    │
+          └──────┬──────┘       └─────────────┘
+                 │
+          ┌──────┴───────┐
+          │              │
+          ▼              ▼
+     ┌─────────┐   ┌──────────────┐
+     │  Cards  │   │ Transactions │
+     └─────────┘   └───────┬──────┘
+                           │
+                           ▼
+                     ┌───────────┐
+                     │ Merchants │
+                     └───────────┘
+
+                     DateTable
+                         │
+                         ▼
+                    Transactions
