@@ -84,3 +84,29 @@ The Customer Analytics dashboard focuses on customer demographics, credit profil
 
 ---
 
+## 3. Transaction Analytics
+
+The Transaction Analytics dashboard analyzes transaction volume, transaction value, transaction sizes, and high-value activity.
+
+### Key KPIs
+
+- Total Transactions
+- Total Transaction Value
+- Average Transaction Value
+- Median Transaction Value
+- Maximum Transaction Value
+
+### Key Analysis
+
+- Transaction value over time
+- Transaction volume over time
+- Average transaction value over time
+- Transaction amount distribution
+- High-value transaction activity
+
+### Dashboard Preview
+
+![Transaction Analytics](screenshots/Transaction_Analytics.png)
+
+---
+
