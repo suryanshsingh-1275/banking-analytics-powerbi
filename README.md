@@ -6,3 +6,23 @@ This project transforms a large synthetic banking dataset into an interactive Bu
 
 ---
 
+## Project Overview
+
+The objective of this project is to analyze a banking ecosystem across multiple dimensions:
+
+- Customer demographics and financial profiles
+- Customer credit scores
+- Accounts and account balances
+- Debit and credit card distribution
+- Transaction volume and transaction value
+- High-value transaction activity
+- Loan portfolio performance
+- Loan amounts and interest rates
+- Risk indicators
+- Merchant performance
+- Geographic transaction activity
+
+The dashboard combines **Power Query, data modeling, DAX, and Power BI visualizations** to turn raw banking data into actionable insights.
+
+---
+
